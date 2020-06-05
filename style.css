@@ -1,0 +1,185 @@
+body {
+    background-color: #efefef;
+}
+
+.navbar {
+    background-color: violet !important;
+}
+
+.nav-link {
+    color: darkorchid !important;
+    font-weight: 70px;
+}
+
+.navbar-link {
+    width: 100px;
+    display: block;
+    color: #fff;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid darkorchid;
+}
+
+/* .nav-link:hover{
+    background-color: rgb(214, 79, 124) !important;
+    border-radius: 20px;
+    border-bottom: 4px solid darkgreen;
+    
+} */
+
+.image {
+    width: 90px;
+    height: auto;
+}
+
+.fa-shopping-bag, .fa-users, .fa-female {
+    font-size: 28px !important;
+    margin-right: 10px !important;
+    color: darkorchid;
+}
+
+.fa-shopping-cart, .fa-user-circle {
+    font-size: 23px !important;
+}
+
+.card1, .card2, .card3 {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: violet;
+    box-shadow: 20px 26px 29px grey;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card:hover {
+    background-color: rgb(212, 205, 205);
+    /* background-color: whitesmoke; */
+}
+
+.mainCard {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text {
+    color: darkorchid;
+    font-family: 'Oswald', sans-serif;
+}
+
+.text2 {
+    color: darkorchid;
+}
+
+.arival {
+    margin-top: 50px;
+}
+
+.card {
+    width: 220px;
+    height: auto;
+    margin-bottom: 5x;
+}
+
+.card-text {
+    font-weight: bold;
+}
+
+.btn-primary {
+    width: 100%;
+    background-color: violet;
+    color: darkorchid;
+}
+
+.btn-primary:hover {
+    background-color: #efefef;
+    color: darkorchid;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    color: darkorchid;
+    margin: 20px;
+}
+
+.heading>h1 {
+    text-shadow: 20px 20px 20px black;
+    margin-top: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer {
+    width: 100%;
+    background-color: violet;
+    height: 80px;
+    justify-self: center;
+}
+
+.footer>div {
+    text-align: center !important;
+}
+
+.fa-facebook-official, .fa-twitter, .fa-google-plus, .fa-linkedin, .fa-instagram {
+    margin: 5px;
+    color: darkorchid;
+}
+
+.mb-0 {
+    color: darkorchid !important;
+    font-family: 'Oswald', sans-serif;
+}
+
+.x1, .x2 {
+    background-color: violet;
+}
+
+.x {
+    color: darkorchid;
+    font-family: 'Oswald', sans-serif;
+}
+
+.xc {
+    background-color: white;
+    color: darkorchid;
+}
+
+.fa-home, .fa-envelope-o, .fa-volume-control-phone, .fa-mobile {
+    margin: 5px;
+}
+
+.hr {
+    color: darkorchid !important;
+}
+
+@media screen and (max-width:600px) {
+    .card1, .card2, .card3 {
+        width: 100%;
+    }
+}
+
+/*   kurti */
+
+.page-footer {
+    background-color: #efefef !important;
+}
+
+/* About us */
+
+.texta {
+    text-align: center;
+    text-decoration: white;
+    font-size: 1.0em;
+    color: darkorchid;
+    /* font-family: 'Oswald', sans-serif; */
+    text-shadow: grey;
+}
